@@ -1,0 +1,7 @@
+# write a map function print areas of circle in which the radius range from 5-10
+
+def area(r):
+    return 3.14*r*r
+
+result = map(area,[5,6,7,8,9])
+print(list(result))
